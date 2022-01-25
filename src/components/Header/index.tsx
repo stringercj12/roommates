@@ -33,18 +33,19 @@ export function Header() {
 
           </li>
         </ul>
-        <div className="user">
-          <div className="avatar">
-            <img src="" alt="" />
+        <span className={styles.line}></span>
+        <div className={styles.user}>
+          <div className={styles.boxAvatar}>
+            <img className={styles.avatar} src="https://images.unsplash.com/photo-1642980074229-439281d19f29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="" />
           </div>
-          <div className="description">
-            <h3 className="name">
+          <div className={styles.description}>
+            <h3 className={styles.name}>
               Richard Lucas
             </h3>
-            <small>Renter</small>
+            <small className={styles.type}>Renter</small>
           </div>
         </div>
-        <select name="language" id="language" className="language">
+        <select name="language" id="language" className={styles.language}>
           <option value="">Lang</option>
           <option value="">US</option>
           <option value="">PT-BR</option>
