@@ -1,13 +1,12 @@
 .container {
-  display: grid;
-  grid-template-columns: 400px 1fr;
+  display: flex;
   padding: 20px;
   gap: 20px;
 }
 
 .apartments {
+  width: 560px;
   .apartment {
-    background-color: red;
     padding: 29px 33px;
     display: flex;
     align-items: center;

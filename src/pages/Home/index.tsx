@@ -4,9 +4,11 @@ import { AiFillNotification } from 'react-icons/ai';
 import styles from './styles.module.scss';
 
 export function Home() {
+
+
   return (
     <div className={styles.container}>
-      <div className="">
+      <div className={styles.apartments}>
         <div className="header">
           <div>
             <h3>
@@ -19,7 +21,7 @@ export function Home() {
           </div>
         </div>
 
-        <div className={styles.apartments}>
+        <div>
           <div className={styles.apartment}>
             <div className="">
               <img className={styles.apartmentImg} src="https://images.unsplash.com/photo-1534353436294-0dbd4bdac845?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwyNnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="" />
