@@ -7,19 +7,61 @@
 .apartments {
   width: 560px;
   .apartment {
-    padding: 29px 33px;
+    border-radius: 10px;
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #fff;
+    width: 100%;
+    // height: 160px;
     .apartmentImg {
-      width: 208px;
-      height: 202px;
+      width: 120px;
+      height: 110px;
+      object-fit: cover;
       border-radius: 10px;
     }
 
     .apartmentDetails {
       width: 100%;
-      padding: 23px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background-color: #344;
+      padding: 0px 10px;
+
+      .apartmentTitle {
+        font-weight: 500;
+        font-size: 24px;
+        color: #333333;
+      }
+
+      .apartmentLocation {
+        font-size: 12px;
+        color: #333333;
+        margin-bottom: 10px;
+      }
+
+      .apartmentDescription {
+        font-size: 12px;
+        color: #a5a7a7;
+        margin: 10px 0;
+      }
+
+      .apartmentFooter {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .apartmentStar {
+        }
+
+        .apartmentMonth {
+          font-size: 12px;
+          color: #000;
+          font-weight: bold;
+        }
+      }
     }
   }
 }

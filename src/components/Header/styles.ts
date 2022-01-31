@@ -4,7 +4,7 @@ export const Container = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30px;
+  padding: 10px 30px;0
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
   background-color: ${({ theme }) => theme.colors.shape};
 `;
